@@ -26,7 +26,6 @@ for i, r in enumerate(result):
     list = []
     
     for labels, detections in zip(classes, detection):
-        if labels == 2:
             label = names[labels]
             list.append(label)
             
