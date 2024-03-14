@@ -41,6 +41,6 @@ for i, r in enumerate(result):
             
         
 print("Total number of people detected in image:", len(list))
-cv.imshow("Image showing detecting objects", image)
+cv.imshow("Image showing detected objects", image)
 cv.waitKey(0)
 cv.destroyAllWindows()
