@@ -8,8 +8,7 @@ model = YOLO("yolov8s-world.pt")
 
 # Read image
 image = cv.imread("Office equipment.jpg")
-image = cv.resize(image, (600,400))
-print("Image of office equipment has been produced")
+print("Image of office equipments has been produced")
 cv.imshow("Image showing equipments", image)
 
 # Store image in a variable - result
