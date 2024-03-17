@@ -7,7 +7,8 @@ print("0\33c") #Clear screen
 model = YOLO("yolov8s-world.pt")
 
 # Read image
-image = cv.imread("People.jpg")
+image = "People.jpg"
+image = cv.imread(image)
 print("Image of people has been produced")
 cv.imshow("Image showing people", image)
 
