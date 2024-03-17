@@ -20,7 +20,7 @@ This repository demonstrates how to use OpenCV along with YOLO (You Only Look On
    pip install numpy
    pip install ultralytics
    ```
-   If python version is python3, use:
+   If python version is Python 3, use:
     ```
    pip3 install opencv-python
    pip3 install numpy
