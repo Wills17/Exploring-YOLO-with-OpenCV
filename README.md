@@ -29,7 +29,7 @@ This repository demonstrates how to use OpenCV along with YOLO (You Only Look On
 
 ## Usage
 
-1. Open the Python script and modify the image variables according to the `path` of image:
+1. Open the Python script and modify the `image` variable according to the `path` of the image in your device:
 
 2. Run the the python script in each folder.
 
